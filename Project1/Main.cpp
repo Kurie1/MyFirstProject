@@ -3,21 +3,25 @@ using namespace std;
 
 int main() {
 
-	int n;
+	int a;
 
-	cout << "nhap so am bat ki:";
+	cout << "nhap so a bat ki" << endl;
 
-	cin >> n;
+	cin >> a;
 
-	if (n < 0) {
-		for (int i = 0; n < i; i--) {
-			if ( i %2 != 0) { 
-				cout << i << " ";
+	int b;
+	
+	cout << "nhap so b bat ki" << endl;
 
+	cin >> b;
+
+	if (b > a) {
+		for (a; b > a; a++) {
+			if (a % 2 == 0) {
+				cout << a << " ";
 			}
 		}
 	}
-
 	cout << endl;
 
 	system("pause");
