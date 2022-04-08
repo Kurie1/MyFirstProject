@@ -5,13 +5,13 @@ int main() {
 
 	int n;
 
-	cout << "nhap so bat ki:";
+	cout << "nhap so am bat ki:";
 
 	cin >> n;
 
-	if (n >= 0) {
-		for (int i = 0; i < n; i++) {
-			if ( i %2 == 0) { 
+	if (n < 0) {
+		for (int i = 0; n < i; i--) {
+			if ( i %2 != 0) { 
 				cout << i << " ";
 
 			}
