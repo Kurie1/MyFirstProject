@@ -3,16 +3,20 @@ using namespace std;
 
 int main() {
 
+	int n;
 
-	for (int i = 0; i <= 30; i++) {
+	cout << "nhap so bat ki:";
 
-		if (i % 3 == 0) {
+	cin >> n;
 
-			cout << i << endl;
+	if (n >= 0) {
+		for (int i = 0; i < n; i++) {
+			if ( i %2 != 0) { // 0   10
+				cout << i << " ";
+
+			}
 		}
-
 	}
-
 
 	cout << endl;
 
