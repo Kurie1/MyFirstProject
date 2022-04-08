@@ -15,9 +15,9 @@ int main() {
 
 	cin >> b;
 
-	if (b > a) {
-		for (a; b > a; a++) {
-			if (a % 2 == 0) {
+	if (a >b ) {
+		for (a; a > b; a--) {
+			if (a % 4 == 0) {
 				cout << a << " ";
 			}
 		}
